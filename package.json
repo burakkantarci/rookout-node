@@ -1,16 +1,22 @@
 {
-  "name": "rookout-node",
+  "name": "header-canvas",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http": "0.0.1-security",
+    "axios": "^0.20.0",
+    "canvas": "^2.6.1",
+    "date-fns": "^2.16.1",
+    "dayjs": "^1.8.36",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "luxon": "^1.25.0",
     "rookout": "^0.1.119"
   }
 }
